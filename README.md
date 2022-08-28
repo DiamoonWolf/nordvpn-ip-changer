@@ -2,6 +2,13 @@
 # NordVPN IP Changer
 
 
+## Installation
+
+Download it with git
+
+```powershell
+git clone https://github.com/DiamoonWolf/nordvpn-ip-changer.git
+```
 
 ## Dependencies
  You will have to install BurnToast to get windows notifications.
