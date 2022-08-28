@@ -6,7 +6,7 @@
 
 Download it with git
 
-```powershell
+```bash
 git clone https://github.com/DiamoonWolf/nordvpn-ip-changer.git
 ```
 
