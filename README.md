@@ -8,7 +8,9 @@
 
 PowerShell Gallery Install (Requires PowerShell v5)
 
-```powershell Install-Module -Name BurntToast```
+```powershell
+Install-Module -Name BurntToast
+```
 
 
 ## Usage
