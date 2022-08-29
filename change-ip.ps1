@@ -13,7 +13,7 @@ if (Test-Path -Path $nordPath) {
     while($true) {
 
         # Call an external server to get the current public IP address
-        $ipAddress = (Invoke-WebRequest -uri "http://ifconfig.me/ip").Content
+        $ipAddress = (Invoke-WebRequest -uri "https://ifconfig.me/ip").Content
 
         # Getting a random server location from the text file
         $rndCountry = Get-Random -InputObject (get-content assets/countrylist.txt)
